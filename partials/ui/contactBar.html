@@ -1,0 +1,47 @@
+<div class="contact-bar">
+  <div class="contact-bar_background">
+    <div class="contact-bar_background_wrapper">
+      <div class="background_oval1"></div>
+      <div class="background_oval2"></div>
+      <div class="background_cross">{{> crossBG}}</div>
+      <div class="background_triangle">{{> triangleBG}}</div>
+      <div class="background_crescent">{{> crescentBG}}</div>
+      <div class="background_DFA">
+        <img src="assets/images/contact-bar-DFA.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="contact-bar_container">
+    <span class="contact-bar_container_question">У Вас есть вопросы?</span>
+    <span class="contact-bar_container_move"
+      >Перезвоним Вам и бесплатно проконсультируем по реализации любой вашей
+      идеи</span
+    >
+    <form action="" class="contact-bar_container_form">
+      <div class="input_name_wrapper">
+        <img src="assets/images/contact-bar_input-name.png" alt="" />
+        <input
+          data-name-input
+          name="name"
+          class="form_name"
+          value=""
+          placeholder="Ваше имя"
+          required
+        />
+      </div>
+
+      <div class="input_number_wrapper">
+        <img src="assets/images/contact-bar_earth.png" alt="" />
+        <input
+          name="tel"
+          type="tel"
+          class="form_number"
+          placeholder="+7 (___) ___-__-__"
+          data-tel-input
+          required
+        />
+      </div>
+      <button data-submit-input type="submit" class="btn">Отправить</button>
+    </form>
+  </div>
+</div>
